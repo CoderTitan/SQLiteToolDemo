@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ObjcSQLiteDemo/Classes/TitanModelSqliteTool.m"
+            timestampString = "554212963.50457"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "+createTable:uid:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ObjcSQLiteDemoTests/TitanSqliteTest.m"
+            timestampString = "554212963.504627"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-testTable"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TitanSqliteTest testTable]"
+                  moduleName = "ObjcSQLiteDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quanjunt/Desktop/Xcode10/ObjcSQLiteDemo/ObjcSQLiteDemoTests/TitanSqliteTest.m"
+                  timestampString = "554212964.33167"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TitanSqliteTest testTable]"
+                  moduleName = "ObjcSQLiteDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quanjunt/Desktop/Xcode10/ObjcSQLiteDemo/ObjcSQLiteDemoTests/TitanSqliteTest.m"
+                  timestampString = "554212964.335476"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TitanSqliteTest testTable]"
+                  moduleName = "ObjcSQLiteDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quanjunt/Desktop/Xcode10/ObjcSQLiteDemo/ObjcSQLiteDemoTests/TitanSqliteTest.m"
+                  timestampString = "554212964.337677"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "803">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TitanSqliteTest testTable]"
+                  moduleName = "ObjcSQLiteDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quanjunt/Desktop/Xcode10/ObjcSQLiteDemo/ObjcSQLiteDemoTests/TitanSqliteTest.m"
+                  timestampString = "554212964.339456"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "859">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TitanSqliteTest testTable]"
+                  moduleName = "ObjcSQLiteDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quanjunt/Desktop/Xcode10/ObjcSQLiteDemo/ObjcSQLiteDemoTests/TitanSqliteTest.m"
+                  timestampString = "554212964.3411781"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "968">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ObjcSQLiteDemoTests/TitanModelSqliteTest.m"
+            timestampString = "554212963.504671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-testIvarNameType"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ObjcSQLiteDemo/Classes/TitanModelTool.m"
+            timestampString = "554212963.50495"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "TitanModelTool"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
