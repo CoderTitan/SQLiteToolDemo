@@ -17,6 +17,9 @@
  */
 + (NSString *)tableName:(Class)clas;
 
+/// 创建临时表的名字
++ (NSString *)tempTableName:(Class)clas;
+
 
 /**
  获取所有的成员变量, 以及成员变量对应的类型
@@ -38,5 +41,8 @@
 + (NSString *)columnNamesAndTypesStr:(Class)clas;
 
 
-
+/**
+ 给所有的成员变量进行排序
+ */
++ (NSArray *)allTableSortedIvarNames:(Class)clas;
 @end

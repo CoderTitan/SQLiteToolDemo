@@ -22,10 +22,28 @@
  */
 - (void)testExample {
     // 创建表格的语句
-    NSString *sql = @"create table if not exists student(id integer primary key autoincrement, name text not null, age integer, score real)";
+    NSString *sql = @"create table if not exists Student(stuNum integer primary key autoincrement, name text not null, age integer, score real)";
     BOOL result = [TItanSQLiteTool deal:sql uid:nil];
     XCTAssertEqual(result, YES);
 }
+
+- (void)testStudent {
+    //删除所有记录
+    NSString * delStr = @"delete from Student";
+    BOOL deleteSql = [TItanSQLiteTool deal:delStr uid:nil];
+    XCTAssertEqual(deleteSql, YES);
+    
+    //添加记录
+    NSString *insert = @"insert into Student(stuNum, name, age, score) values (1, 'sz', 18, 0)";
+    BOOL res = [TItanSQLiteTool deal:insert uid:nil];
+    XCTAssertEqual(res, YES);
+    
+    //添加记录
+    NSString *insert1 = @"insert into Student(stuNum, name, age, score) values (2, 'jun', 19, 90)";
+    BOOL res1 = [TItanSQLiteTool deal:insert1 uid:nil];
+    XCTAssertEqual(res1, YES);
+}
+
 
 
 - (void)testQuery {
@@ -54,11 +72,22 @@
 
 
 - (void)testTable {
-    Class clas = NSClassFromString(@"Student");
-    BOOL res = [TitanModelSqliteTool createTable:clas uid:nil];
+//    Class clas = NSClassFromString(@"Student");
+//    BOOL res = [TitanModelSqliteTool createTable:clas uid:nil];
+//    XCTAssertEqual(res, YES);
+
+    Class cls = NSClassFromString(@"Student");
+//    BOOL result = [TitanModelSqliteTool isTableRequiredUpdate:cls uid:nil];
+//    XCTAssertEqual(result, YES);
+    
+    BOOL res = [TitanModelSqliteTool updateTable:cls uid:nil];
     XCTAssertEqual(res, YES);
 }
 
+
+- (void)tableUpdate {
+   
+}
 
 
 

@@ -18,5 +18,8 @@
     return @[@"b"];
 }
 
-
++ (NSDictionary *)newNameToOldNameDic {
+    //key: 新, value:旧
+    return @{@"age2": @"age"};
+}
 @end

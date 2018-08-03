@@ -46,19 +46,6 @@ sqlite3 *titanDB = nil;
 
 
 /**
- 同时处理多条语句, 并使 事物进行包装
- 
- @param sqls sql语句数组
- @param uid 用户的唯一表示
- @return 是否全部处理成功, 如果有一条没有处理成功则会进行回滚操作
- */
-+ (BOOL)dealSqls:(NSArray <NSString *> *)sqls uid:(NSString *)uid {
-    
-    return YES;
-}
-
-
-/**
  查询语句, 返回结果集
  
  @param sql sql语句
@@ -157,6 +144,49 @@ sqlite3 *titanDB = nil;
     return rowDicArr;
 }
 
+
+/**
+ 同时处理多条语句, 并使 事物进行包装
+ 
+ @param sqls sql语句数组
+ @param uid 用户的唯一表示
+ @return 是否全部处理成功, 如果有一条没有处理成功则会进行回滚操作
+ */
++ (BOOL)dealSqls:(NSArray <NSString *> *)sqls uid:(NSString *)uid {
+    //开始执行
+    [self beginTransaction:uid];
+    
+    //遍历所有的语句
+    for (NSString *sql in sqls) {
+        BOOL result = [self deal:sql uid:uid];
+        if (result == NO) {
+            //如果有一条语句出现错误, 则全部语句失败, 回滚数据
+            [self rollBackTransaction:uid];
+            return NO;
+        }
+    }
+    
+    //都成功, 提交
+    [self commitTransaction:uid];
+    return YES;
+}
+
+
+#pragma mark - 关于事物的操作
+/// 开始操作
++ (void)beginTransaction:(NSString *)uid {
+    [self deal:@"begin reansaction" uid:uid];
+}
+
+/// 提交操作
++ (void)commitTransaction:(NSString *)uid {
+    [self deal:@"commit reansaction" uid:uid];
+}
+
+/// 回滚操作
++ (void)rollBackTransaction:(NSString *)uid {
+    [self deal:@"rollback reansaction" uid:uid];
+}
 
 #pragma mark - 私有方法
 

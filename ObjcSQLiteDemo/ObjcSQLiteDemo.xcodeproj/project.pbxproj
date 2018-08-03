@@ -21,6 +21,8 @@
 		77B2D0F3210880E5000618C4 /* TitanModelSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B2D0F2210880E5000618C4 /* TitanModelSqliteTool.m */; };
 		77B2D0F7210897EB000618C4 /* TitanModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B2D0F6210897EB000618C4 /* TitanModelTool.m */; };
 		77B2D0F921089D95000618C4 /* TitanModelSqliteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B2D0F821089D95000618C4 /* TitanModelSqliteTest.m */; };
+		77CA6B9D210AFD5D00DF11F2 /* TitanTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CA6B9C210AFD5D00DF11F2 /* TitanTableTool.m */; };
+		77CA6B9F210B181800DF11F2 /* TitanTableToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CA6B9E210B181800DF11F2 /* TitanTableToolTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		77B2D0F5210897EB000618C4 /* TitanModelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitanModelTool.h; sourceTree = "<group>"; };
 		77B2D0F6210897EB000618C4 /* TitanModelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitanModelTool.m; sourceTree = "<group>"; };
 		77B2D0F821089D95000618C4 /* TitanModelSqliteTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitanModelSqliteTest.m; sourceTree = "<group>"; };
+		77CA6B9B210AFD5D00DF11F2 /* TitanTableTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitanTableTool.h; sourceTree = "<group>"; };
+		77CA6B9C210AFD5D00DF11F2 /* TitanTableTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitanTableTool.m; sourceTree = "<group>"; };
+		77CA6B9E210B181800DF11F2 /* TitanTableToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitanTableToolTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +140,8 @@
 				77B2D0F6210897EB000618C4 /* TitanModelTool.m */,
 				77B2D0F1210880E5000618C4 /* TitanModelSqliteTool.h */,
 				77B2D0F2210880E5000618C4 /* TitanModelSqliteTool.m */,
+				77CA6B9B210AFD5D00DF11F2 /* TitanTableTool.h */,
+				77CA6B9C210AFD5D00DF11F2 /* TitanTableTool.m */,
 				77B2D0F421089653000618C4 /* TitanModelProtocol.h */,
 			);
 			path = Classes;
@@ -146,6 +153,7 @@
 				77B2D0E1210855A5000618C4 /* ObjcSQLiteDemoTests.m */,
 				77B2D0E9210855EF000618C4 /* TitanSqliteTest.m */,
 				77B2D0F821089D95000618C4 /* TitanModelSqliteTest.m */,
+				77CA6B9E210B181800DF11F2 /* TitanTableToolTest.m */,
 				77B2D0E3210855A5000618C4 /* Info.plist */,
 			);
 			path = ObjcSQLiteDemoTests;
@@ -252,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B2D0DA2108490E000618C4 /* TItanSQLiteTool.m in Sources */,
+				77CA6B9D210AFD5D00DF11F2 /* TitanTableTool.m in Sources */,
 				77B2D0C3210848AB000618C4 /* ViewController.m in Sources */,
 				77B2D0F7210897EB000618C4 /* TitanModelTool.m in Sources */,
 				77B2D0ED21086FE6000618C4 /* Student.m in Sources */,
@@ -266,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B2D0EA210855EF000618C4 /* TitanSqliteTest.m in Sources */,
+				77CA6B9F210B181800DF11F2 /* TitanTableToolTest.m in Sources */,
 				77B2D0F921089D95000618C4 /* TitanModelSqliteTest.m in Sources */,
 				77B2D0E2210855A5000618C4 /* ObjcSQLiteDemoTests.m in Sources */,
 			);

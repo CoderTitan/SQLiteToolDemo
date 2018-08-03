@@ -13,7 +13,7 @@
 
 @property (nonatomic, assign) int stuNum;
 @property (nonatomic, copy) NSString *name;
-@property (nonatomic, assign) int age;
+@property (nonatomic, assign) int age2;
 @property (nonatomic, assign) float score;
 
 @end

@@ -18,6 +18,11 @@
     return NSStringFromClass(clas);
 }
 
+/// 创建临时表的名字
++ (NSString *)tempTableName:(Class)clas {
+    return [NSStringFromClass(clas) stringByAppendingString:@"_tmp"];
+}
+
 
 /**
  获取所有的成员变量, 以及成员变量对应的类型
@@ -99,6 +104,22 @@
     return [result componentsJoinedByString:@","];
 }
 
+
+/**
+ 给所有的成员变量进行排序
+ */
++ (NSArray *)allTableSortedIvarNames:(Class)clas {
+    //1. 获取所有的成员变量
+    NSDictionary *dic = [self classIvarNameTypeDic:clas];
+    NSArray *keys = dic.allKeys;
+    
+    //2.排序
+    [keys sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        return [obj1 compare:obj2];
+    }];
+    
+    return keys;
+}
 
 
 #pragma mark - 私有方法
