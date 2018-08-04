@@ -10,7 +10,7 @@ import Foundation
 import SQLite3
 
 /// 缓存地址
-let kCachePath = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true).first
+let kCachePath = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true).first ?? ""
 
 ///
 //let titanDB: sqlite?

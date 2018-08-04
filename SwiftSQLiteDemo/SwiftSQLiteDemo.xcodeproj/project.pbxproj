@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7728C2BC211553AC00BE1A8C /* TitanModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7728C2BB211553AC00BE1A8C /* TitanModelProtocol.swift */; };
+		7728C2BE211553D600BE1A8C /* TitanModelTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7728C2BD211553D600BE1A8C /* TitanModelTool.swift */; };
 		7785ACDA21144F94006DD0B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7785ACD921144F94006DD0B2 /* AppDelegate.swift */; };
 		7785ACDC21144F94006DD0B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7785ACDB21144F94006DD0B2 /* ViewController.swift */; };
 		7785ACDF21144F94006DD0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7785ACDD21144F94006DD0B2 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7728C2BB211553AC00BE1A8C /* TitanModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanModelProtocol.swift; sourceTree = "<group>"; };
+		7728C2BD211553D600BE1A8C /* TitanModelTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanModelTool.swift; sourceTree = "<group>"; };
 		7785ACD621144F94006DD0B2 /* SwiftSQLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSQLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7785ACD921144F94006DD0B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7785ACDB21144F94006DD0B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				7785ACFF21145BA4006DD0B2 /* TitanSqliteContain.swift */,
+				7728C2BB211553AC00BE1A8C /* TitanModelProtocol.swift */,
 				7785ACFD21145450006DD0B2 /* TitanSQLiteTool.swift */,
+				7728C2BD211553D600BE1A8C /* TitanModelTool.swift */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
@@ -227,6 +233,8 @@
 				7785AD0021145BA4006DD0B2 /* TitanSqliteContain.swift in Sources */,
 				7785ACDC21144F94006DD0B2 /* ViewController.swift in Sources */,
 				7785ACDA21144F94006DD0B2 /* AppDelegate.swift in Sources */,
+				7728C2BE211553D600BE1A8C /* TitanModelTool.swift in Sources */,
+				7728C2BC211553AC00BE1A8C /* TitanModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

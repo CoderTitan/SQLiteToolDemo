@@ -89,7 +89,7 @@ sqlite3 *titanDB = nil;
         
         //4-2. 遍历所有的列
         for (int i = 0; i < columnCount; i ++) {
-            //4-2-1. 获取列名
+            //4-2-1. 获取列名sqli
             //参数一: 准备语句, 参数二: 索引
             const char *columnNameC = sqlite3_column_name(ppStmt, i);
             NSString *columnname = [NSString stringWithUTF8String:columnNameC];
