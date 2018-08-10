@@ -11,4 +11,7 @@
 
 @implementation Student
 
++ (NSString *)primaryKey {
+    return @"num";
+}
 @end
